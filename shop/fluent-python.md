@@ -30,7 +30,7 @@
 ---
 
 ## 📥 获取方式
-1. **预览样张**：[点击下载样本预览](/pdf/fluent_python_2022.pdf)
+1. **预览样张**：<a href="/pdf/fluent_python_2022.pdf" download>点击下载样本预览</a>
 2. **联系获取**：
    - 添加微信：`DaiYufan08`
    - 备注：**咨询流畅Python**
