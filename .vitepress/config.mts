@@ -2,14 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "独家小屋",
+  title: "杜家小屋",
   description: "在这里记录成长、分享好物",
   themeConfig: {
     // 顶部导航栏配置
     nav: [
       { text: '首页', link: '/' },
-      { text: '我的博客', link: '/posts/' },
-      { text: '关于我', link: '/about' }
+      { text: '我的博客', link: '/posts/' }
     ],
 
     // 侧边栏配置

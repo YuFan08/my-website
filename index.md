@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "独家小屋"
+  name: "杜家小屋"
   text: "思考、记录、分享"
-  tagline: 欢迎来到我的个人频道，在这里记录成长的点滴。
+  tagline: 与其追随光，不如与我一同，成为那束点亮讲台的光。
   actions:
     - theme: brand
       text: 阅读博文
       link: /posts/
     - theme: alt
-      text: 关于我
+      text: 一对一写稿
       link: /about
 
 features:
@@ -21,7 +21,7 @@ features:
     details: 分享生活中的美好瞬间和不一样的风景。
   - title: ✨ 创意工坊
     details: 那些闪闪发光的灵感，值得被文字认真对待。
-  - title: 💡 独家好物
+  - title: 💡 杜家好物
     details: 这里的每一件宝贝都是我精心挑选，希望能为你带来价值。
     link: /shop/
 ---
