@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "vercel-build": "npm run docs:build",
     "build": "vitepress build",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
