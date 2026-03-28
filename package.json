@@ -4,7 +4,8 @@
     "build": "vitepress build",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "pub": "git add . && git commit -m 'update' && git push origin main"
   },
   "devDependencies": {
     "vitepress": "^1.6.4",
