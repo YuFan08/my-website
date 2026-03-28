@@ -2,6 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 在 head 中引入不蒜子脚本
+  head: [
+    ['script', { async: '', src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
+  ],
   title: "杜家小屋",
   description: "在这里记录成长、分享好物",
   themeConfig: {
@@ -34,7 +38,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: '基于 VitePress 搭建',
+      // 在这里显示访问量统计
+      message: '本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 | 本站访客数 <span id="busuanzi_value_site_uv"></span> 人',
       copyright: 'Copyright © 2026-Present'
     },
 
