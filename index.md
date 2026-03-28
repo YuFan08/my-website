@@ -4,21 +4,28 @@ layout: home
 
 hero:
   name: "独家空间"
-  text: "探索、记录、分享"
-  tagline: 欢迎来到我的个人网站，这里记录了我的学习历程和生活点滴。
+  text: "思考、记录、分享"
+  tagline: 欢迎来到我的个人频道，在这里记录成长的点滴。
   actions:
     - theme: brand
-      text: 快速开始
-      link: /markdown-examples
+      text: 阅读博文
+      link: /posts/
     - theme: alt
       text: 关于我
-      link: /api-examples
+      link: /about
 
 features:
-  - title: 📝 学习笔记
-    details: 记录从 0 到 1 搭建网站的全过程，分享我的编程心得。
-  - title: 📸 生活碎片
-    details: 捕捉生活中的美好瞬间，记录不一样的风景。
-  - title: 💡 创意想法
+  - title: 📝 深度思考
+    details: 将日常的学习心得和技术实践沉淀为文字。
+  - title: 📸 光影记录
+    details: 分享生活中的美好瞬间和不一样的风景。
+  - title: 💡 创意工坊
     details: 那些闪闪发光的灵感，值得被文字认真对待。
 ---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+}
+</style>

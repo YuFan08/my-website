@@ -2,27 +2,40 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "独家空间",
+  description: "在这里记录成长与思考",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // 顶部导航栏配置
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '我的博客', link: '/posts/' },
+      { text: '关于我', link: '/about' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // 侧边栏配置（在博客页面显示文章列表）
+    sidebar: {
+      '/posts/': [
+        {
+          text: '我的博文',
+          items: [
+            { text: '你好，世界', link: '/posts/hello-world' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/YuFan08' }
+    ],
+
+    footer: {
+      message: '基于 VitePress 搭建',
+      copyright: 'Copyright © 2026-Present'
+    },
+
+    // 搜索功能配置
+    search: {
+      provider: 'local'
+    }
   }
 })
